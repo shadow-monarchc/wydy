@@ -1,0 +1,29 @@
+
+@import '_partial/nav';
+@import '_partial/var';
+@import '_partial/mixin';
+@import '_partial/search';
+@import '_partial/portada';
+@import '_partial/main';
+@import '_partial/font';
+@import '_partial/footer';
+
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background: $primari-bg-color;
+    overflow-x: hidden;
+
+}
+body,div,nav,ul,li,footer,header,main,aside,input,label,a,img,button,h2,h1{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: $color-white;
+}
+

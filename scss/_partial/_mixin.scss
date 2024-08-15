@@ -1,0 +1,25 @@
+@mixin shadows($color){
+    box-shadow: 2px 2px 8px $color;
+
+}
+@mixin smalls-s{
+    @media screen and (max-width:500px) {
+        @content
+    }
+}
+@mixin smalls-medius-s{
+    @media screen and (max-width:730px) {
+        @content
+    }
+}
+
+@mixin smalls{
+    @media screen and (min-width:500px) {
+        @content
+    }
+}
+@mixin smalls-medius{
+    @media screen and (min-width:730px) {
+        @content
+    }
+}
